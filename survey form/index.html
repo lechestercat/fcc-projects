@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1>freeCodeCamp Survey Form</h1>
+    <p class="thanks">
+      Thank you for taking the time to help us improve the platform
+    </p>
+
+    <div id="form">
+      <form action="#">
+        <p>Name</p>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+          required
+        />
+
+        <p>Email</p>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <p>Age(opional)</p>
+        <input type="number" name="age" id="age" placeholder="age" />
+
+        <p>Which option best describes your current role?</p>
+
+        <select name="role" id="role" required>
+          <option value="default">Select current role</option>
+          <option value="student">Student</option>
+          <option value="full-time-job">Full Time Job</option>
+          <option value="full-time-learner">Full Time Learner</option>
+          <option value="not-say">Prefer Not To Say</option>
+          <option value="other">Other</option>
+        </select>
+
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <input
+          type="radio"
+          id="definitely"
+          name="recommend"
+          value="definitely"
+        />
+        <label for="definitely">Definitely</label><br />
+        <input type="radio" id="maybe" name="recommend" value="maybe" />
+        <label for="maybe">Maybe</label><br />
+        <input type="radio" id="other" name="recommend" value="other" />
+        <label for="other">Not Sure</label>
+
+        <p>What is your favorite feature of freeCodeCamp?</p>
+        <input
+          type="checkbox"
+          id="feature1"
+          name="feature1"
+          value="Front-end"
+        />
+        <label for="feature1"> Front-end Projects</label><br />
+        <input type="checkbox" id="feature2" name="feature2" value="Back-end" />
+        <label for="feature2"> Back-end Projects</label><br />
+        <input
+          type="checkbox"
+          id="feature3"
+          name="feature3"
+          value="Data-Visualization"
+        />
+        <label for="feature3"> Data Visualization</label><br />
+        <input
+          type="checkbox"
+          id="feature4"
+          name="feature4"
+          value="Challenges"
+        />
+        <label for="feature4"> Challenges</label><br />
+        <input
+          type="checkbox"
+          id="feature5"
+          name="feature5"
+          value="Community"
+        />
+        <label for="feature5"> Open Source Community</label><br />
+        <input
+          type="checkbox"
+          id="feature6"
+          name="feature6"
+          value="help-rooms"
+        />
+        <label for="feature6"> Gitter help rooms</label><br />
+        <input type="checkbox" id="feature7" name="feature7" value="Videos" />
+        <label for="feature7"> Videos</label><br />
+        <input
+          type="checkbox"
+          id="feature8"
+          name="feature8"
+          value="City-Meetups"
+        />
+        <label for="feature8"> City Meetups</label><br />
+        <input type="checkbox" id="feature9" name="feature9" value="Wiki" />
+        <label for="vehicle3"> Wiki</label><br />
+        <input type="checkbox" id="feature10" name="feature10" value="Forum" />
+        <label for="feature10"> Forum</label><br />
+        <input
+          type="checkbox"
+          id="feature11"
+          name="feature11"
+          value="Additional-Courses"
+        />
+        <label for="feature11"> Additional Courses</label><br />
+
+        <p>Any comments or suggestions?</p>
+        <textarea
+          name="comments"
+          id="comments"
+          cols="30"
+          rows="10"
+          placeholder="Enter your comment here..."
+        ></textarea>
+        <br />
+        <button type="submit" class="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
+<!-- https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg -->

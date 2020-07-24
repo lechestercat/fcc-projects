@@ -1,0 +1,71 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  font-size: 12px;
+}
+
+#main {
+  background-color: #eeeeee;
+  margin: 20px 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 50px;
+}
+
+.top-quote {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#hero {
+  background-color: white;
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-bottom: 10px;
+}
+
+.photo-quote {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#tribute-info {
+  text-align: center;
+  max-width: 580px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+ul {
+  font-size: 1rem;
+  text-align: center;
+  list-style-position: inside;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  font-size: 1rem;
+  padding-bottom: 20px;
+  font-weight: 300;
+}
+
+.bold-date {
+  font-weight: 500;
+}
+
+.quote {
+  font-size: 1.1rem;
+  font-style: italic;
+}
